@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'gulp' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\xampp\htdocs\myblog\package.json
+5 verbose installManyTop reading scoped package data from C:\xampp\htdocs\myblog\node_modules\bootstrap-sass\package.json
+6 verbose installManyTop reading scoped package data from C:\xampp\htdocs\myblog\node_modules\gulp\package.json
+7 verbose readDependencies loading dependencies from C:\xampp\htdocs\myblog\package.json
+8 silly cache add args [ '-', null ]
+9 verbose cache add spec -
+10 verbose install gulp is installed as 3.9.1
+11 silly cache add args [ 'gulp', null ]
+12 verbose cache add spec gulp
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: '-',
+13 silly cache add   scope: null,
+13 silly cache add   name: null,
+13 silly cache add   rawSpec: '-',
+13 silly cache add   spec: 'C:\\xampp\\htdocs\\myblog\\-',
+13 silly cache add   type: 'local' }
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'gulp',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'gulp',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: 'latest',
+14 silly cache add   type: 'tag' }
+15 silly addNamed gulp@latest
+16 verbose addNamed "latest" is being treated as a dist-tag for gulp
+17 info addNameTag [ 'gulp', 'latest' ]
+18 silly mapToRegistry name gulp
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'gulp',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'gulp',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/gulp
+23 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+24 error addLocal Could not install C:\xampp\htdocs\myblog\-
+25 verbose request uri https://registry.npmjs.org/gulp
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 3:11:24 PM
+28 verbose request id 1814122bd5b18182
+29 verbose etag "7BD8RMZAOHVX5RLCWF8IUSSG9"
+30 http request GET https://registry.npmjs.org/gulp
+31 http 200 https://registry.npmjs.org/gulp
+32 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+32 verbose headers   etag: '"EQS42FOF9GS5SE9BBP35UHZX8"',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'content-encoding': 'gzip',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '19008',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 30 Sep 2016 09:41:10 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '72',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '3',
+32 verbose headers   'x-timer': 'S1475228470.085813,VS0,VE0',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 200,
+33 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+33 silly get     etag: '"EQS42FOF9GS5SE9BBP35UHZX8"',
+33 silly get     'content-type': 'application/json',
+33 silly get     'content-encoding': 'gzip',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     'content-length': '19008',
+33 silly get     'accept-ranges': 'bytes',
+33 silly get     date: 'Fri, 30 Sep 2016 09:41:10 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     age: '72',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-lhr6327-LHR',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '3',
+33 silly get     'x-timer': 'S1475228470.085813,VS0,VE0',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose get saving gulp to C:\Users\abdullah\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+35 verbose correctMkdir C:\Users\abdullah\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+36 silly addNameTag next cb for gulp with tag latest
+37 silly addNamed gulp@3.9.1
+38 verbose addNamed "3.9.1" is a plain semver version for gulp
+39 silly cache afterAdd gulp@3.9.1
+40 verbose afterAdd C:\Users\abdullah\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+41 verbose correctMkdir C:\Users\abdullah\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 verbose afterAdd C:\Users\abdullah\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+43 verbose stack Error: ENOENT: no such file or directory, open 'C:\xampp\htdocs\myblog\-'
+43 verbose stack     at Error (native)
+44 verbose cwd C:\xampp\htdocs\myblog
+45 error Windows_NT 6.3.9600
+46 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-" "gulp"
+47 error node v4.5.0
+48 error npm  v2.15.9
+49 error path C:\xampp\htdocs\myblog\-
+50 error code ENOENT
+51 error errno -4058
+52 error syscall open
+53 error enoent ENOENT: no such file or directory, open 'C:\xampp\htdocs\myblog\-'
+53 error enoent This is most likely not a problem with npm itself
+53 error enoent and is related to npm not being able to find a file.
+54 verbose exit [ -4058, true ]
