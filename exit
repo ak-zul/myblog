@@ -1,0 +1,23 @@
+[33mcommit 9811d06bd94b55580ac46b68ca076036a25a2aea[m
+Author: ak-zul <ak.zul65@gmail.com>
+Date:   Sat Oct 1 20:07:37 2016 +0530
+
+    users fetching data with photos is completed
+
+[33mcommit 8cd7602c6ca4cbdeb280f6928f172834374921a2[m
+Author: ak-zul <ak.zul65@gmail.com>
+Date:   Sat Oct 1 17:16:06 2016 +0530
+
+    persist user data without photo
+
+[33mcommit 4fef232df94d43514ea367e74618a1b4a7a6877d[m
+Author: ak-zul <ak.zul65@gmail.com>
+Date:   Sat Oct 1 12:34:15 2016 +0530
+
+    admin master page setup is end
+
+[33mcommit a82fa21049e21015a119dd2f0929edde9e175cf3[m
+Author: ak-zul <ak.zul65@gmail.com>
+Date:   Fri Sep 30 15:29:22 2016 +0530
+
+    my first git coomit -admin view created
