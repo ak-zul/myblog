@@ -4,6 +4,12 @@
 
     <h1 class="page-header">Users View</h1>
 
+    @if(Session::has('deleted_user'))
+
+        <h3 class="bg-danger">{{session('deleted_user')}}</h3>
+
+    @endif
+
     <table class="table">
         <thead>
           <tr>
